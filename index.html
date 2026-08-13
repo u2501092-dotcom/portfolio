@@ -15,37 +15,58 @@
         header {
             background-color: #2c3e50;
             color: white;
-            padding: 2rem 0;
+            padding: 2.5rem 1rem;
             text-align: center;
+        }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
         }
         header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
+            font-size: 1.1rem;
+            margin-top: 8px;
+            color: #ecf0f1;
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            margin: 30px auto;
+            padding: 25px;
             background: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 10px;
         }
         h2 {
             color: #2980b9;
             border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 5px;
+            padding-bottom: 8px;
+            margin-top: 20px;
         }
         ul {
-            line-height: 1.6;
+            line-height: 1.8;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
         }
         .footer {
             text-align: center;
             padding: 20px;
-            margin-top: 20px;
+            margin-top: 30px;
             font-size: 0.9rem;
             color: #7f8c8d;
         }
@@ -54,33 +75,34 @@
 <body>
 
 <header>
+    <img src="profile.jpg" alt="Hemadri Das Argha" class="profile-img">
     <h1>Hemadri Das Argha</h1>
-    <p>BSc in Civil Engineering (1st Year) | Tech & AI Enthusiast</p>
+    <p>Civil Engineering Student | Tech Enthusiast</p>
 </header>
 
 <div class="container">
     <h2>About Me</h2>
-    <p>Hello! I am a first-year undergraduate student in the Civil Engineering department at CUET. I am passionate about blending traditional engineering concepts with computational power. My academic vision is directed towards the research line, specifically exploring Artificial Intelligence and Structural Health Monitoring.</p>
+    <p>Hello! I am a Civil Engineering student. I have a strong interest in various civil engineering concepts, infrastructure, and technology. Alongside my engineering studies, I enjoy learning new skills and exploring creative fields.</p>
 
-    <h2>Education</h2>
+    <h2>Currently Learning & Skills</h2>
     <ul>
-        <li><strong>BSc in Civil Engineering</strong> - Chittagong University of Engineering & Technology (CUET) <em>(Present)</em></li>
-        <li><strong>Higher Secondary Certificate (HSC)</strong> - Government Haji Mohammad Mohsin College <em>(Golden GPA 5.00)</em></li>
-        <li><strong>Secondary School Certificate (SSC)</strong> - Nasirabad Government High School <em>(Golden GPA 5.00)</em></li>
+        <li><strong>Programming Languages:</strong> C, C++</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript (Basics)</li>
     </ul>
 
-    <h2>Skills & Learning Path</h2>
+    <h2>Extracurricular Activities & Interests</h2>
     <ul>
-        <li><strong>Programming:</strong> C, Python (Following CS50 curriculum)</li>
-        <li><strong>Tools:</strong> VS Code</li>
-        <li><strong>Core Focus:</strong> Computational Civil Engineering</li>
+        <li>Playing Spanish Guitar & Music</li>
+        <li>Cricket</li>
+        <li>Programming & Coding</li>
     </ul>
 
-    <h2>Extracurricular Activities</h2>
-    <ul>
-        <li>Organizer: GHMMC '25 Engineering & Medical Meetup (April 2026).</li>
-        <li>Music: Playing Spanish and acoustic guitar.</li>
-    </ul>
+    <h2>Contact & Socials</h2>
+    <p><strong>Email:</strong> <a href="mailto:hemadrydas@gmail.com">hemadrydas@gmail.com</a></p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/HemadryArgha" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/hemadry_argha/" target="_blank">Instagram</a>
+    </div>
 </div>
 
 <div class="footer">
@@ -89,3 +111,5 @@
 
 </body>
 </html>
+
+
